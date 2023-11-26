@@ -4,13 +4,15 @@ import lombok.Data;
 
 @Data
 public class Disciplina {
-    private String nome;
-    private double codigo;
+    private String nomeDisciplina;
 
-    public Disciplina(String nome, double codigo) {
+
+    public Disciplina(String nomeDisciplina) {
+        this.nomeDisciplina = nomeDisciplina;
     }
 
-    public String getNome() {
-        return nome;
+    public String getNomeDisciplina() {
+
+        return nomeDisciplina;
     }
 }
