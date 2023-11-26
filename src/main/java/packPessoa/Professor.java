@@ -11,4 +11,5 @@ public class Professor extends Pessoa {
         this.registro= registro;
     }
 
+
 }
